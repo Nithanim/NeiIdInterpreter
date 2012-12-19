@@ -23,7 +23,7 @@ public class NeiIdInterpreter
 			}
 			catch (FileNotFoundException e)
 			{
-				System.out.println("File was not found: \"" + args[0]);
+				System.out.println("File was not found: \"" + args[0] + "\"");
 			}
 		}
 		else
